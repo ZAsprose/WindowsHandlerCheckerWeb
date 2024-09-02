@@ -1,6 +1,6 @@
 # WindowsHandlerCheckerWeb
 
-| [English](#english) | [中文]({% include_relative README_zh.md %}) |
+| [English](#english) | [中文](#{% include_relative README_zh.md %}) |
 |---------------------|-----------------------|
 
 ## english
