@@ -1,7 +1,10 @@
 # WindowsHandlerCheckerWeb
 
-| [English](#english) | [中文](#{% include_relative README_zh.md %}) |
-|---------------------|-----------------------|
+
+
+[![English](https://img.shields.io/badge/lang-en-red.svg)](#english)
+[中文](./README_zh.md %})
+
 
 ## english
 A MVC website to check Handles of existing windows and try to list Handles of its sub elements
