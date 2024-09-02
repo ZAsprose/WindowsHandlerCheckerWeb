@@ -5,4 +5,4 @@ Display Handle and Title of all current existing window in Windows. Fetch one of
 
 It's a play-around project to go through the process of fetching information of windows app. I set it up using my old Win 8.1 laptop I brought in my college, so somehow the framework and structure is out-of-date.
 
-The windowsUtil class is the key file of all the windows related operations. Archive it for need.
+The windowsUtils class is the key file of all the windows related operations. Archive it for need.
