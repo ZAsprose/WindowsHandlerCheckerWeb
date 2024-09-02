@@ -1,0 +1,29 @@
+@{
+    ViewBag.Title = "About";
+}
+
+@model List<WebApplication1.Models.Element>
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Handle</td>
+                <td>ClassName</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Handle.ToString()</td>
+                    <td>@item.ClassName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
