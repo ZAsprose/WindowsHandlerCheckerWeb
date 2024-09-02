@@ -2,8 +2,8 @@
 
 
 
-[![English](https://img.shields.io/badge/lang-en-red.svg)](#english)
-[中文](./README_zh.md %})
+[![English](https://img.shields.io/badge/lang-en-blue.svg)](#english)
+[![中文](https://img.shields.io/badge/lang-cn-red.svg)](./README_zh.md)
 
 
 ## english
