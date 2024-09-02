@@ -12,6 +12,7 @@ namespace WebApplication1.Models
     public class WindowUtils
     {
         #region user32
+        // using CharSet.Unicode to avoid '?' in any case to fetch text from the window, in may case simplified chinese 
         [DllImport("User32.dll", EntryPoint = "FindWindow")]
         private static extern IntPtr FindWindow(string className, string windowName);
 
