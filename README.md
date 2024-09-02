@@ -1,5 +1,9 @@
 # WindowsHandlerCheckerWeb
-## English
+
+| [English](#english) | [中文](#中文) |
+|---------------------|-----------------------|
+
+## english
 A MVC website to check Handles of existing windows and try to list Handles of its sub elements
 
 Display Handle and Title of all current existing window in Windows. Fetch one of them (using copy&paste) to backend, and try to get the Handle of its elements if it's a regular app window, or Chrome.
