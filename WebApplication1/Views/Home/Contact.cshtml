@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+@model List<WebApplication1.Models.Element>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Handle</td>
+                <td>ClassName</td>
+                <td>Text</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Handle.ToString()</td>
+                    <td>@item.ClassName</td>
+                    <td>@item.Text</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+&nbsp;&nbsp;&nbsp;
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>

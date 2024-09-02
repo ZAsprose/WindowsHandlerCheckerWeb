@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Chrome";
+}
+@model List<WebApplication1.Models.Element>
+<h2>Chrome</h2>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Text</td>
+                <td>ClassName</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Text</td>
+                    <td>@item.ClassName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
